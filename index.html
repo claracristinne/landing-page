@@ -109,8 +109,43 @@
                     <td>CSS</td>
                     <td>Em breve</td>
                 </tr>
-
             </table>
+        </section>
+
+        <section>
+            <h2>Cadastro</h2>
+            <form action="">
+                <label for="name">Nome</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+
+                <label for="password">Senha</label>
+                <input type="password" id="password" required>
+
+                <label for="age">Idade</label>
+                <input type="number" id="age" name="age">
+
+                <label for="birth">Data de nascimento</label>
+                <input type="date" id="birth" name="birth">
+
+                <label for="tech">Tecnologia favorita</label>
+
+                    <select name="tech" id="tech">
+
+                        <option value="html" selected>HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="javascript">JavaScript</option>
+
+                    </select>
+
+                <label for="file">Enviar arquivo</label>
+                <input type="file" id="file">
+
+                <button type="submit">Cadastrar</button>
+
+            </form>
             
         </section>
 
